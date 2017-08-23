@@ -16,7 +16,7 @@ public class RNFirebasePhoneAuthPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNFirebasePhoneAuthModule(reactContext));
     }
 
-    @Override
+//    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
